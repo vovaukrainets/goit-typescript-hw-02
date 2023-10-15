@@ -1,10 +1,8 @@
 let some: unknown;
 some = "Text";
 let str: string;
-str = some as string;
-
 if (typeof some === "string") {
-  str = some as string;
+  str = some;
 } else {
   console.log("Змінна 'some' не є рядком.");
 }
